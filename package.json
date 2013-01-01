@@ -1,0 +1,10 @@
+{
+	"name": "flatsite",
+	"main": "lib/flatsite",
+	"version": "0.0.1",
+	"dependencies": {
+    	"plates": "0.4.x",
+    	"shelljs": "0.1.0",
+    	"chokidar": "0.5.0"
+  	}
+}
