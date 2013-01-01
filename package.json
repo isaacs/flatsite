@@ -1,7 +1,32 @@
 {
 	"name": "flatsite",
-	"main": "lib/flatsite",
+	"description": "A static HTML site generator",
 	"version": "0.0.1",
+	"main": "lib/flatsite",
+	"homepage": "https://github.com/valdoweb/flatsite",
+	"author": {
+		"name": "Valdoweb",
+		"url": "http://valdoweb.com"
+	},
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/valdoweb/flatsite.git"
+	},
+	"bugs": {
+		"url": "https://github.com/valdoweb/flatsite/issues"
+	},
+	"readme": {
+		"url": "https://github.com/valdoweb/flatsite/master/README.md"
+	},
+	"engines": {
+    "node": "0.8"
+  	},
+	"licenses": [
+		{
+		  "type": "MIT",
+		  "url": "https://github.com/valdoweb/flatsite/master/LICENCE.md"
+		}
+	],
 	"dependencies": {
     	"plates": "0.4.x",
     	"shelljs": "0.1.0",
