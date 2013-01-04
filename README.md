@@ -15,6 +15,7 @@ npm install flatsite
 Usage
 -----
 var flatsite = require('flatsite');
+
 flatsite.generate();
 
 In your source directory Flatsite need to find those folders:
