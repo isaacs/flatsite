@@ -1,15 +1,16 @@
 {
 	"name": "flatsite",
 	"description": "A static HTML site generator",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"main": "lib/flatsite",
 	"homepage": "https://github.com/valdoweb/flatsite",
 	"author": {
 		"name": "Valdoweb",
+		"email": "valdoweb@valdoweb.com",
 		"url": "http://valdoweb.com"
 	},
 	"scripts": {
-    	"test": "echo \"Error: no test specified\" && exit 1"
+    	"test": "node test/test.js"
  	 },
 	"repository": {
     "type": "git",
@@ -40,6 +41,7 @@
 		"html",
 		"generator"
   	],
-  	"devDependencies": {},
-  	"optionalDependencies": {}
+  	"devDependencies": {
+  		"shelljs": "0.1.0"
+  	}
 }
